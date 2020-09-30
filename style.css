@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-family: 'Roboto';
+  color: #E0E0E0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+img {
+  width: 150px;
+}
+
+button {
+  background-color: #0A358D;
+  border: 0;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form div {
+  margin: 0 auto;
+  margin-bottom: 7px;
+  width: 300px;
+}
+
+form div input, form div button {
+  width: 100%;
+}
+
+form div input {
+  padding: 10px 10px;
+  border: 1px solid #43658b;
+  border-radius: 5px;
+  color: #43658b;
+}
